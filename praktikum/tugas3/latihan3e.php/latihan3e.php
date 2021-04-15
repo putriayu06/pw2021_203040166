@@ -16,7 +16,7 @@ $products = [
         "brand" => "Zalora",
         "description" => "Women's backpack that is comfortable to use and has a large space and also has a beautiful color",
         "category" => "Backpack Bag",
-        "price" => " 279k"
+        "price" => " 279.000"
     ],
     [
         "picture" => "2.jpg", 
@@ -24,7 +24,7 @@ $products = [
         "brand" => "Zara",
         "description" => "Lightweight and simple bag with premium materials",
         "category" => "Clutch Bag",
-        "price" => " 650k"
+        "price" => " 650.000"
     ],
     [
         "picture" => "3.jpg",
@@ -32,7 +32,7 @@ $products = [
         "brand" => "Zara",
         "description" => "Has a very light weight when it is empty, but can accommodate quite a lot of luggage which is quite a lot",
         "category" => "Drawstring Bag",
-        "price" => " 200k"
+        "price" => " 200.000"
     ],
     [
         "picture" => "4.jpg",
@@ -40,7 +40,7 @@ $products = [
         "brand" => "Zalora",
         "description" => "Zippered pastel leather sling bag Detachable and adjustable strap",
         "category" => "Halfmoon Bag",
-        "price" => " 700k"
+        "price" => " 700.000"
     ],
     [
         "picture" => "5.jpg",
@@ -48,7 +48,7 @@ $products = [
         "brand" => "Coach",
         "description" => "A pebble textured handbag in a chic vintage feelin different colors Top cover with twist lock",
         "category" => "Hand Bag",
-        "price" => " 500k"
+        "price" => " 500.000"
     ],
     [
         "picture" => "6.jpg",
@@ -56,7 +56,7 @@ $products = [
         "brand" => "Zara",
         "description" => "A cool bag for young people who want to hang out",
         "category" => "Mini Backpack",
-        "price" => " 400k"
+        "price" => " 400.000"
     ],
     [
         "picture" => "7.jpg",
@@ -64,7 +64,7 @@ $products = [
         "brand" => "Lokal",
         "description" => "Paper bags of various colors that are made of thick material and can be used as gift bags",
         "category" => "Paper Bag",
-        "price" => " 15k"
+        "price" => " 15.000"
     ],
     [
        "picture" => "8.jpg",
@@ -72,7 +72,7 @@ $products = [
         "brand" => "Lokal",
         "description" => "Shoping bags are bags that are designed with fabrics", 
         "category" => "Shoping Bag",
-        "price" => " 13k"
+        "price" => " 13.000"
     ],
     [
         "picture" => "9.jpg",
@@ -80,7 +80,7 @@ $products = [
         "brand" => "Consina",
         "description" => "High Quality Fabric, Black Size: 25 x 16 x 5 cm, simple bag, beautiful color, suitable for young people",
         "category" => "Sling Bag" ,
-        "price" => " 250k"
+        "price" => " 250.000"
     ],
     [
         "picture" => "10.jpg",
@@ -88,7 +88,7 @@ $products = [
         "brand" => "Lokal",
         "description" => "A bag that is simple and suitable for college use", 
         "category" => "Tote Bag",
-        "price" => " 35k"
+        "price" => " 35.000"
     ]
 
 ];
