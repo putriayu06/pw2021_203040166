@@ -71,7 +71,7 @@ if (isset($_GET['cari'])) {
                     transition: all 0.5s;
                     cursor: pointer;
                     margin: 5px;
-                  }
+                  }git 
                 </style>
                 <table id="table" class="table table-bordered table-hover text-center">
                     <thead>
