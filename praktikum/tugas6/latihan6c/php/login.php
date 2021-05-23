@@ -46,11 +46,11 @@ if (isset($_POST['submit'])) {
       $_SESSION['hash'] = hash('sha256', $row['id'], false);
       // jika remenber me dicentang 
       if (isset($_POST['remember'])) {
-        setcookie('username', $row['username'],time() + 60 * 60 * 24);
+        setcookie('username', $row['username'], time() + 60 * 60 * 24);
         $hash = hash('sha256', $row['id']);
         setcookie('hash', $hash, time() + 60 * 60 * 24);
       }
-      
+
       if (hash('sha256', $row['id']) == $_SESSION['hash']) {
         header("Location: admin.php");
         die;
@@ -66,50 +66,50 @@ if (isset($_POST['submit'])) {
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Halaman Login</title>
   <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="../css/style.css">   
+  <link rel="stylesheet" type="text/css" href="../css/style.css">
 </head>
 
 <body>
   <style>
-      body {
-        margin: 0;
-        padding: 0;
-        display: flex;
-        justify-content: center;
-        height: 600px;
-        background-color: pink;
-        align-items: center;
-        font-family: AkayaTelivigala-Regular;
-      }
+    body {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      height: 600px;
+      background-color: pink;
+      align-items: center;
+      font-family: AkayaTelivigala-Regular;
+    }
 
-      .login {
-       background-color: #fff;
-        width: 350px;
-        text-align: center;
-        padding: 40px;
-        box-sizing: border-box;
-        border-radius: 10px;
-      }
+    .login {
+      background-color: #fff;
+      width: 350px;
+      text-align: center;
+      padding: 40px;
+      box-sizing: border-box;
+      border-radius: 10px;
+    }
 
-      .login h2{
-        margin: 0 0 20px;
-        width: 100%;
-        margin-bottom: 25px;
-      }
-
+    .login h2 {
+      margin: 0 0 20px;
+      width: 100%;
+      margin-bottom: 25px;
+    }
   </style>
   <form action="" method="post">
-  <div class="login">
+    <div class="login">
       <h2>Halaman Login</h2>
-        <?php if (isset($error)) : ?>
-          <p style="color: red; font-style: italic;">username atau password salah</p>
-        <?php endif; ?>
+      <?php if (isset($error)) : ?>
+        <p style="color: red; font-style: italic;">username atau password salah</p>
+      <?php endif; ?>
       <table>
         <tr>
           <td><label for="username">Username</label></td>
@@ -130,8 +130,9 @@ if (isset($_POST['submit'])) {
         <p>Buat akun <a href="registrasi.php">Disini</a></p>
       </div>
       <button type="submit" name="submit">Login</button>
-    </form>
+  </form>
   </div>
   </div>
 </body>
+
 </html>

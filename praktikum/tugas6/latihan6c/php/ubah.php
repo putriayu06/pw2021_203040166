@@ -10,8 +10,8 @@
 session_start();
 
 if (!isset($_SESSION["username"])) {
-  header("Location: login.php");
-  exit;
+    header("Location: login.php");
+    exit;
 }
 
 require 'function.php';
@@ -19,8 +19,8 @@ require 'function.php';
 $id = $_GET['id'];
 $p = query("SELECT * FROM products WHERE id = $id")[0];
 
-if(isset($_POST['ubah'])) {
-    if(ubah($_POST) > 0) {
+if (isset($_POST['ubah'])) {
+    if (ubah($_POST) > 0) {
         echo "  <script>
                     alert('Data Berhasil Diubah!');
                     document.location.href = 'admin.php';
@@ -29,7 +29,7 @@ if(isset($_POST['ubah'])) {
         echo "  <script>
                     alert('Data Gagal Diubah!');
                     document.location.href = 'admin.php';
-                </script>";    
+                </script>";
     }
 }
 ?>
@@ -39,7 +39,7 @@ if(isset($_POST['ubah'])) {
     <ul>
         <input type="hidden" name="id" id="id" value="<?= $p['id']; ?>">
         <li>
-            <label for="picture">Picture  :</label><br>
+            <label for="picture">Picture :</label><br>
             <input type="file" name="picture" id="picture" required value="<?= $p['picture'] ?>"><br><br>
         </li>
         <li>
