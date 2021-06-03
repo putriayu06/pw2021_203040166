@@ -1,12 +1,8 @@
 <?php
-/*
-    Ayu Putri Dwi Annisa
-    2030401666
-    Jum'at, 13:00
-*/
-?>
+// Ayu Putri Dwi Annisa
+// 2030401666
+// Jum'at, 13:00
 
-<?php
 session_start();
 require 'function.php';
 

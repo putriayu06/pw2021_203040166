@@ -1,13 +1,8 @@
 <?php
-/*
-    Ayu Putri Dwi Annisa
-    2030401666
-    Jum'at, 13:00
-*/
-?>
+// Ayu Putri Dwi Annisa
+// 2030401666
+// Jum'at, 13:00
 
-
-<?php
 require 'function.php';
 
 if (isset($_POST["register"])) {

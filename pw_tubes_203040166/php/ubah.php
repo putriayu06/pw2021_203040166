@@ -1,12 +1,8 @@
 <?php
-/*
-    Ayu Putri Dwi Annisa
-    2030401666
-    Jum'at, 13:00
-*/
-?>
+// Ayu Putri Dwi Annisa
+// 2030401666
+// Jum'at, 13:00
 
-<?php
 session_start();
 
 if (!isset($_SESSION["username"])) {
@@ -89,7 +85,7 @@ if (isset($_POST['ubah'])) {
                                 <input type="hidden" name="id" id="id" value="<?= $p['id']; ?>">
                                 <li class="list-group-item text-center card border-danger mb-3">
                                     <label for="picture">Picture :</label><br>
-                                    <input type="file" name="picture" id="picture" autocomplete="off" value="<?= $p['picture'] ?>"><br><br>
+                                    <input type="file" name="picture" id="picture" autocomplete="off" required value="<?= $p['picture'] ?>"><br><br>
                                 </li>
                                 <ul class="list-group">
                                     <li class="list-group-item text-center card border-danger mb-3">

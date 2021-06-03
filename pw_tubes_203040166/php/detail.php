@@ -1,12 +1,7 @@
 <?php
-/*
-    Ayu Putri Dwi Annisa
-    2030401666
-    Jum'at, 13:00
-*/
-?>
-
-<?php
+// Ayu Putri Dwi Annisa
+// 2030401666
+// Jum'at, 13:00
 
 // mengecek apakah ada id yang dikirimkan 
 // jika tidak maka akan dikembalikan ke halaman index.php 

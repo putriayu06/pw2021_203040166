@@ -1,17 +1,13 @@
 <?php
-/*
-    Ayu Putri Dwi Annisa
-    2030401666
-    Jum'at, 13:00
-*/
-?>
+// Ayu Putri Dwi Annisa
+// 2030401666
+// Jum'at, 13:00
 
-<?php
 session_start();
 
 if (!isset($_SESSION["username"])) {
-  header("Location: login.php");
-  exit;
+    header("Location: login.php");
+    exit;
 }
 
 require 'function.php';
@@ -28,4 +24,3 @@ if (hapus($id) > 0) {
                 document.location.href = 'admin.php';
             </script>";
 }
-?>
